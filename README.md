@@ -21,7 +21,16 @@ O sistema inclui uma interface simples para consulta e análise dos dados, permi
 O projeto está dividido em dois módulos principais:
 
 1. **main.py** - Responsável pela interface com o usuário, onde ocorre a interação principal. Recebe as entradas do usuário para selecionar as funções desejadas e exibe os resultados obtidos.
-2. **analysis.py** - Contém as funções de análise e manipulação de dados. Este módulo é responsável pelo cálculo das estatísticas como média, variância, média ponderada e correlação entre variáveis.
+2. **functions.py** - Contém as funções de análise e manipulação de dados. Este módulo é responsável pelo cálculo das estatísticas como média, variância, média ponderada e correlação entre variáveis.
+3. **countries_data.json** - Dicionário utilizado para os dados feito a mão.
+
+## Fontes Utilizadas
+
+<a href="https://www.bing.com/ck/a?!&&p=d8aad64dba69dc1f1876ee88dd6e1962985ce88cd7e5d8ef3d74453214c49c2eJmltdHM9MTczMTU0MjQwMA&ptn=3&ver=2&hsh=4&fclid=002cfa02-4b38-66b7-0f8f-ee054ae167c7&psq=popula%c3%a7%c3%a3o+dos+paises&u=a1aHR0cHM6Ly9wdC53aWtpcGVkaWEub3JnL3dpa2kvTGlzdGFfZGVfcGElQzMlQURzZXNfcG9yX3BvcHVsYSVDMyVBNyVDMyVBM28&ntb=1">Lista de países por população – Wikipédia</a>
+
+<a href="https://www.bing.com/ck/a?!&&p=0f45d6205681c9981162fb1d2d613f96fe2dbd87c89a7092f2d4be64333696daJmltdHM9MTczMTU0MjQwMA&ptn=3&ver=2&hsh=4&fclid=002cfa02-4b38-66b7-0f8f-ee054ae167c7&psq=pib+dos+pa%c3%adses&u=a1aHR0cHM6Ly9wdC53aWtpcGVkaWEub3JnL3dpa2kvTGlzdGFfZGVfcGElQzMlQURzZXNfcG9yX1BJQl9ub21pbmFs&ntb=1">Lista de países por PIB nominal – Wikipédia</a>
+
+<a href="https://www.bing.com/ck/a?!&&p=c976093ff367af5ad0fb736dd46fc089e71065085f600c4343596392fbc25ffcJmltdHM9MTczMTU0MjQwMA&ptn=3&ver=2&hsh=4&fclid=002cfa02-4b38-66b7-0f8f-ee054ae167c7&psq=Energia+ecologica+produzida+pelos+paises&u=a1aHR0cHM6Ly9leGFtZS5jb20vZWNvbm9taWEvb3MtMTAtcGFpc2VzLWxpZGVyZXMtZW0tZW5lcmdpYS1saW1wYS1uby1tdW5kby8&ntb=1">As 10 potências mundiais em energia limpa - Exame</a>
 
 <article>
         <h2>Integrantes</h2>
